@@ -1,0 +1,6 @@
+<aside class="bg-light p-1">
+  <div class="nav flex-column">
+    <h3 class="mb-4">Click on a version to know about its villains!</h3>
+    <h3 class="nav-link border m-1 version text-black" *ngFor=" let version of versionList"  (click)="handleMenuSelect(version.versionId)">{{version.versionName}}</h3>
+  </div>
+</aside>

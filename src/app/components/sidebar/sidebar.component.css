@@ -1,0 +1,8 @@
+aside {
+  height: 120%;
+}
+
+.version:hover {
+  background-color: #6c757d;
+  color: white !important;
+}

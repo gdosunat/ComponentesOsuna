@@ -1,0 +1,8 @@
+<div class="text-center pr-0">
+  <h2 class="my-4">{{versionName}}</h2>
+  <div class="container pt-3">
+    <div *ngFor="let villain of villains" class="d-inline-flex mx-5 mb-5">
+      <app-villain-card [name]="villain.name" [objective]="villain.objective" [phrase]="villain.phrase" [image]="villain.image"/>
+    </div>
+  </div>
+</div>
